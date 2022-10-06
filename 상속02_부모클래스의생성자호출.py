@@ -7,7 +7,7 @@ class Person:
 
 class Student(Person):
     def __init__(self, name, phoneNumber, subject, studentID):
-        Person.__init__(self, name, phoneNumber) 
+        Person.__init__(self, name, phoneNumber) # 명시적호출
         self.Subject = subject
         self.StudentId = studentID
 

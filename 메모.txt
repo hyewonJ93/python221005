@@ -1,0 +1,17 @@
+##### 메모 ##### 
+- 모듈선언 방법
+1) import 모듈명 ex) import sys, import os...
+2) from 모듈명 import * (__제외)
+        form 모듈명 사용 시 방을 만들지 않음 -> 전역함수처럼 사용
+3) from 모듈명 import 함수명 -> 메모리 절약
+4) import 모듈명 as 별명
+
+
+- package(폴더로 구분, 파일은 모듈임)
+예) C:\mymodule\DemoPackage\demo1.py
+DemoPackage > 패키지
+from 패키지명 import 모듈명  from 패키지명은 생략가능함. from 문을 사용하지 않으면 호출 시 DemoPackage.demo1.함수명으로 호출해야함
+
+패키지인지 모듈인지 확인법 : 문서확인. 
+
+
