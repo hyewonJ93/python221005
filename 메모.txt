@@ -15,3 +15,12 @@ from 패키지명 import 모듈명  from 패키지명은 생략가능함. from �
 패키지인지 모듈인지 확인법 : 문서확인. 
 
 
+- 자주 사용하는 파이썬 함수
+int(), str(), list(), range()  => type casting
+
+- 표준입출력
+print("welcome to", "python", sep="~", end="!", file=sys.stderr)
+===> welcome to~python!
+sep=, end= -> 키워드 인자
+
+.rjust() => 우측정렬
