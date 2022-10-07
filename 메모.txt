@@ -30,7 +30,7 @@ sep=, end= -> 키워드 인자
 - 파일 입출력
 파일객체 = open(file, mode) => pandas에서 기능 사용 (read_csv(), read_excel())
 ==> open() 함수 사용이 어려움
-    write() 글 입력 후 개행문자 입력필수(\n)
+    write() 글 입력 후 개행문자 입력필수(\n) 예) f.write(title+"\n")
     read() : 전체라인 읽어서 하나의 str()변수로 반환
     readline() : 한번에 한줄씩 (500mb~16gb)
     readlines() : 파일 모든 내용을 줄단위로 list()객체로 반환 [1111,2222,3333,...]  => 컬렉션
